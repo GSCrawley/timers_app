@@ -1,0 +1,23 @@
+.NewTimer {
+	display: flex;
+	justify-content: center;
+}
+
+.NewTimer > input {
+	font-size: 1rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5rem 0 0 0.5rem;
+	border: 1px solid;
+	margin: 0;
+}
+
+.NewTimer > button {
+	font-size: 1rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0 0.5rem 0.5rem 0;
+	border: 1px solid #000;
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}

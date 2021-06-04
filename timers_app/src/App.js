@@ -13,12 +13,13 @@ const store = createStore(reducers);
 function App() {
   return (
     <Provider store={store}>
-      <h1>TMRZ</h1>
+      <div className="App">
+    <h1>TMRZ</h1>
       {/* Display the new components */}
       <NewTimer />
       <ListTimers />
-    </Provider>
-  );
+      </div>
+</Provider>  );
 }
 
 export default App;

@@ -1,0 +1,22 @@
+
+.TimerView > h1 {
+	flex:1;
+	margin: 1rem;
+	text-align: left;
+	font-variant-numeric: tabular-nums;
+}
+
+.TimerView > h2 {
+	flex: 1;
+}
+
+.TimerView > button {
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	width: 4rem;
+}
