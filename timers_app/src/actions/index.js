@@ -10,6 +10,13 @@
 
 // `ADD_TIMER` - Creating a timer will add a new timer object to an array of timer objects held by the store.
 
+export const UPDATE = "UPDATE"
+export const update = (deltaTime) => {
+    return {
+      type: UPDATE,
+      payload: { deltaTime }
+    }
+  }
 
 export const NEW_TIMER = 'NEW_TIMER'
 export const addTimer = (name) => {
