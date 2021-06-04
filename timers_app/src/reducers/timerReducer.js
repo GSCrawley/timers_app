@@ -1,4 +1,4 @@
-import { NEW_TIMER, TOGGLE_TIMER, UPDATE } from '../actions';
+import { NEW_TIMER, RESET_TIMER, TOGGLE_TIMER, UPDATE } from '../actions';
 import Timer from '../Timer'
 
 const timerReducer = (state = [], action) => {
@@ -10,6 +10,14 @@ const timerReducer = (state = [], action) => {
           }
           return timer
         })
+      case RESET_TIMER:
+        const resetState = state.map((timer, index) => {
+          if (action.payload.index === index) {
+            return {...state, Timer }
+          }
+          return timer
+        })
+        return resetState
 
       case NEW_TIMER:
         // Add a new timer, return a copy of state

@@ -9,6 +9,13 @@
 // - Select a timer
 
 // `ADD_TIMER` - Creating a timer will add a new timer object to an array of timer objects held by the store.
+export const RESET_TIMER = "RESET"
+export const resetTimer = (index) => {
+    return {
+        type: RESET_TIMER,
+        payload: { index }
+    }
+}
 
 export const UPDATE = "UPDATE"
 export const update = (deltaTime) => {
@@ -35,7 +42,6 @@ export const toggleTimer = (index) => {
     payload: { index }
   }
 }
-
 
 // `SELECT_TIMER` - Selects a timer. Selecting a timer will
 // display details about that timer. This requires the index

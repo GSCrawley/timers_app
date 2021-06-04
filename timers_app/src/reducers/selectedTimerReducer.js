@@ -10,11 +10,11 @@ const selectedTimerReducer = (state = null, action) => {
       default:
         return state;
     }
-  }
+}
 
-//   var newState = state.slice();
+// var newState = state.slice();
 //     newState.push(newItem);
-
+// }
 // var newState = state.map((item, i) => {
 //     if (i === index) {
 //       // Returns a new object with the values of item, and overwrites count with new value
@@ -23,5 +23,5 @@ const selectedTimerReducer = (state = null, action) => {
 //     return item;
 //   })
 
-  
+
 export default selectedTimerReducer;
