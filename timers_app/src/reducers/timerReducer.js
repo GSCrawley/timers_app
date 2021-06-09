@@ -11,8 +11,6 @@ const timerReducer = (state = [], action) => {
           return timer
         })
 
-     
-
       case NEW_TIMER:
         // Add a new timer, return a copy of state
         const name = action.payload.name ? action.payload.name : `Timer ${state.length}`
