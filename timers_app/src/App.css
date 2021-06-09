@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 body {
-  margin-left: 2rem;
-
+  
+  background-color: lightgreen;
 }
 
 input {

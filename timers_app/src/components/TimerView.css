@@ -1,13 +1,17 @@
 
 .TimerView > h1 {
 	flex:1;
-	margin: 1rem;
+	/* margin: 1rem; */
 	text-align: left;
 	font-variant-numeric: tabular-nums;
+	border-width: 10px;
+	border-color: black;
 }
 
 .TimerView > h2 {
 	flex: 1;
+	border-width: 10px;
+	border-color: black;
 }
 
 .TimerView > button {
