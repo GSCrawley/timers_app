@@ -9,13 +9,21 @@
 // - Select a timer
 
 // `ADD_TIMER` - Creating a timer will add a new timer object to an array of timer objects held by the store.
-// export const RESET_TIMER = "RESET"
-// export const resetTimer = (index) => {
-//     return {
-//         type: RESET_TIMER,
-//         payload: { index }
-//     }
-// }
+export const DELETE_TIMER = 'DELETE_TIMER';
+export const deleteTimer = (name) => {
+    return {
+        type: DELETE_TIMER,
+        payload: { name }
+    }
+}
+
+export const RESET_TIMER = 'RESET_TIMER';
+export const resetTimer = (index) => {
+    return {
+        type: RESET_TIMER,
+        payload: { index }
+    }
+}
 
 export const UPDATE = "UPDATE"
 export const update = (deltaTime) => {

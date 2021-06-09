@@ -10,11 +10,10 @@
 
 .TimerView > h2 {
 	flex: 1;
-	border-width: 10px;
-	border-color: black;
+	
 }
 
-.TimerView > button {
+.TimerView > button  {
 	padding: 0.25rem 0.5rem;
 	border-radius: 0.5rem;
 	border: 1px solid #000;
