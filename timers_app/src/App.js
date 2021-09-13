@@ -31,7 +31,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-    <h1>TMRZ</h1>
+    <h1>MY TIMERS</h1>
       {/* Display the new components */}
       <NewTimer />
       <ListTimers />
